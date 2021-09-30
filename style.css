@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital@1&display=swap');
+
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+:root{
+    --primary-color:#03203C; 
+}
+header{
+    margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    font-size:40px;
+    font-weight: 600;
+    padding: 1rem auto;
+   color:#758283;
+   color: var(--primary-color);
+
+}
+label{
+    text-align: center;
+    font-size:x-large;
+    margin: 1rem auto;
+    max-width:min-content;
+    border: var(--primary-color);
+}
+input {
+    display: block;
+    margin: 1rem auto;
+    border: 2px solid var(--primary-color);
+    border-radius: 0.4rem;
+    padding: 0.4rem;
+    font-size: large;
+    margin-bottom: 1.5rem;
+    width: 270px;
+}
+button{
+    margin: 0 auto;
+    padding: 0.5rem 0.7rem;
+    font-size: x-large;
+    border-radius: 0.4rem;
+    font-weight: bold;
+    border: 1.5px solid black;
+    font-family: 'Open Sans', sans-serif;
+    background-color: var(--primary-color);
+    color: whitesmoke;
+   
+}
+
+#error-msg{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 1rem auto;
+    padding-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+#output{
+    text-align: center;
+    font-size:x-large;
+    font-weight: bold;
+    margin: 1rem auto;
+    padding-top: 1rem;
+    font-family: 'Open Sans', sans-serif;
+    color:black
+}
+
+
+footer{
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    font-size: large;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+::placeholder{
+    font-style: 'Bitter', serif;
+    font-style: italic;
+    font-size: large;
+}
+
+footer li{
+    list-style: none;
+    margin: 0 auto;
+    padding: auto;
+}
+footer div{
+    padding-top: 1rem;
+    padding-bottom: 0.4rem;
+    padding-left: auto;
+    padding-right: auto;
+    font-size: larger;
+}
+li{
+    display: inline;
+    padding: 0.5rem;
+    padding-inline-start: 0rem;
+}
+
+img{
+    height: 2.5rem;
+    width: 2.5rem;
+    opacity: 1;
+
+}
+img:hover{
+    opacity: 0.9;
+}
