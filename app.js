@@ -25,7 +25,7 @@ function validateValue(){
         }
     }
     else{
-        alert("Please fill all the fields");
+        alert("Please fill out all the fields");
     }      
 }
         
